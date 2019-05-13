@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="petStore">
+    <Basepaths>/petStore</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1556082149457</CreatedAt>
+    <CreatedBy>nsahai03@gmail.com</CreatedBy>
+    <Description>OMS</Description>
+    <DisplayName>petStore</DisplayName>
+    <LastModifiedAt>1556082149457</LastModifiedAt>
+    <LastModifiedBy>nsahai03@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:04d3ecbcefbd154fcd4598573ee233dbe22bb9048d1fdd82e52acacf831468d4e7536307916bb1c77558e8ef08bb83e25f6aa16ca7597357ed93dccf6ebb1f7a:us-west-2</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

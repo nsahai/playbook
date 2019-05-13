@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description>OMS</Description>
+    <FaultRules/>
+    <Flows>
+        <Flow name="CustomerV1FossilUsOrder20190110192806450150332Get">
+            <Description>Order Detail</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/customer/v1/fossil/us/order/20190110192806450150332") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="InventoryV1FossilStorePost">
+            <Description>QA - Store Inventory Check</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/inventory/v1/fossil/store") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="StorePost">
+            <Description>Prod - Store Inventory Check</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/store") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="InventoryV1FossilRtcPost">
+            <Description>QA - RTC Inventory</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/inventory/v1/fossil/rtc") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="RtcPost">
+            <Description>Prod - RTC Inventory</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/rtc") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="CustomerV1FossilUsOrderGet">
+            <Description>Order History</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/customer/v1/fossil/us/order") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="OauthV1FossilAccesstokenPost">
+            <Description>OMS Access Token</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/oauth/v1/fossil/accesstoken") and (request.verb = "POST")</Condition>
+        </Flow>
+    </Flows>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <HTTPProxyConnection>
+        <BasePath>/petStore</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>
