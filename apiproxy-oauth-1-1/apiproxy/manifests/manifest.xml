@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="builduservalidaterequest" version="SHA-512:e9306c5a92669b5daea4f6d66513d7fb1bb4ba541e08c36e0b35aacea9b624fb1fa11071d76ef4fa9440001c9a66c010512dba1e52bad55d10651f288ded9e60"/>
+        <VersionInfo resourceName="executeuservalidaterequest" version="SHA-512:9c3232e99f54f2b25439e4dc9c119070beab88b07be11ffe612101cf6e530d1443aa194603f82369d32f2040f4a4840e187b22adf2a7aa01084d344bc08f5b60"/>
+        <VersionInfo resourceName="generateaccesstoken" version="SHA-512:603c093a1311e2dc69cb1dfbfc494c9d3eee0e3bb72ae6892cdaa3ecf7bd6c9176e0298a71bda6b9798d37898726bbf1be307defdde300b52bd5b8ac983f5f70"/>
+        <VersionInfo resourceName="refreshaccesstoken" version="SHA-512:dcab1ec99899c16b866c6ef79cdb29412c2d8c3cfb791435c1cbae6b07af8f6c55958db362350c622c984b3d453bf9866c1acbd41d94231493e65dd7c9d1c03c"/>
+        <VersionInfo resourceName="set404response" version="SHA-512:a0056e31a60fc64a6166194a08715d94fb8b7b50c81f2eeb85ed1fcc6e3043438052ee0d086cf28774c4b7313cdf64dfbf3f169abf6e2cfedf5c8a7f1a561a2c"/>
+        <VersionInfo resourceName="setstoreexternaltokenresponse" version="SHA-512:c25dcbc571cd3ee2477b8fcb6cab4698059ba5373644b7157a91cabddab1913b5605e11f6ab5eca6be9a9f80c2bc0bf92304c638e32628cfb3234d80e5fa1cab"/>
+        <VersionInfo resourceName="settokenresponseclientcredentials" version="SHA-512:dec9a9fa2fa81384b602b1489cd226a2a157eb91fad3f9653e5919313a98506c30d82abf88825f06ad3cc2482ce2194a9303f95cf2db381d4c7335b7a317238d"/>
+        <VersionInfo resourceName="settokenresponsepassword" version="SHA-512:5e1693f0ab9d4979ac941463f578ed342b24b1affd0efd94439dc5c5f91059c21bd66347223ca7054ac2370024397b6c0900120cc57f597b3d1f1394745a2d7c"/>
+        <VersionInfo resourceName="settokenresponserefresh" version="SHA-512:ef2650107aa77feede6148f6b93557a456169de79ca73a52240343e3b72624535aef2c3a909113eda92d3a9eff76f7ec6ac66b5cff3e3846449b4835027c5f8c"/>
+        <VersionInfo resourceName="setverifysuccessresponse" version="SHA-512:30a4ce742606c3c71d58bc92262fdde90f3d369170117b1981165a6b05ab3e8e695dba04625488554138c6fef13ee91a0ee457e275f2a5a14eb18cbefdd0fa16"/>
+        <VersionInfo resourceName="storeexternalaccesstoken" version="SHA-512:5c51fd355021d5b3b12c1688c6f5e73acba4b571188c8d659893e0593a2020a530ccaacb1458b17b82fa3f0d7f750eb4d1f385e493ed2000528e60ed7a2fd29f"/>
+        <VersionInfo resourceName="verifyaccesstoken" version="SHA-512:b1fa76bd9ab8c7bfbb1d4e8987a9fd72136fb66632490966182a7a25c92eb6e6ce437fb88298d742c79e84ccc8be5de57e1ad7ccb562f94f29effef6b0f1214d"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:293bf0b594784f40997133c630ed8756dca5a6f686fef8d105d5d53ccaa6532318b8a08929ec20c9a0dd0f4ecaa78c019028313e4a121e4cba7b3202fd5c82c8"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

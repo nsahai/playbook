@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="setverifysuccessresponse">
+    <DisplayName>SetVerifySuccessResponse</DisplayName>
+    <Set>
+      <StatusCode>200</StatusCode>
+      <ReasonPhrase>OK</ReasonPhrase>
+      <Payload contentType="application/json" variablePrefix="%" variableSuffix="#">
+        {"session_id" : "%accesstoken.session_id#",
+         "app_type" : "%app.appType#",
+         "quota_limit" : "%app.custom.quota.limit#"
+        }
+      </Payload> 
+    </Set>
+    <AssignTo createNew="true" type="response"/>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</AssignMessage>

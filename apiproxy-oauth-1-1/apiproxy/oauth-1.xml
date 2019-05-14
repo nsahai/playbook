@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="oauth-1">
+    <Basepaths>/oauth</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1555627058978</CreatedAt>
+    <CreatedBy>nsahai03@gmail.com</CreatedBy>
+    <Description>Oauth 2.0</Description>
+    <DisplayName>oauth2-old</DisplayName>
+    <LastModifiedAt>1555627058978</LastModifiedAt>
+    <LastModifiedBy>nsahai03@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:bc978921dd718d5c26353dd300fe0bb7421458e2383aa8bff1e1d73f2f075bb38df37c42a9fd25392fd045f02da3c77912b83239af9fce9891e717d919f7a842</ManifestVersion>
+    <Policies>
+        <Policy>builduservalidaterequest</Policy>
+        <Policy>executeuservalidaterequest</Policy>
+        <Policy>generateaccesstoken</Policy>
+        <Policy>refreshaccesstoken</Policy>
+        <Policy>set404response</Policy>
+        <Policy>setstoreexternaltokenresponse</Policy>
+        <Policy>settokenresponseclientcredentials</Policy>
+        <Policy>settokenresponsepassword</Policy>
+        <Policy>settokenresponserefresh</Policy>
+        <Policy>setverifysuccessresponse</Policy>
+        <Policy>storeexternalaccesstoken</Policy>
+        <Policy>verifyaccesstoken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

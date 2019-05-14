@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="builduservalidaterequest">
+    <DisplayName>BuildUserValidateRequest</DisplayName>
+    <Set>
+      <Payload contentType="application/json" variablePrefix="%" variableSuffix="#">
+        {"username":"%request.formparam.username#","password": "%request.formparam.password#"}
+      </Payload>
+      <Path>/v1/users/authenticate</Path>
+      <Verb>POST</Verb>
+    </Set>
+  <AssignTo createNew="true" type="request">calloutRequest</AssignTo>
+</AssignMessage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="setstoreexternaltokenresponse">
+    <DisplayName>SetStoreExternalTokenResponse</DisplayName>
+    <Set>
+      <Payload contentType="application/json" variablePrefix="%" variableSuffix="#">
+        {
+          "status" : "ok",
+          "access_token": "%oauthv2accesstoken.storeexternalaccesstoken.access_token#"
+        }
+      </Payload>
+      <StatusCode>200</StatusCode>
+      <ReasonPhrase>OK</ReasonPhrase>
+    </Set>
+    <AssignTo createNew="true" type="response"/>
+</AssignMessage>

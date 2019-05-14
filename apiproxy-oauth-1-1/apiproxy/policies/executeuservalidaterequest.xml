@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="executeuservalidaterequest">
+    <DisplayName>ExecuteUserValidateRequest</DisplayName>
+    <Request variable="calloutRequest">
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://cs-oauth-prod.apigee.net</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

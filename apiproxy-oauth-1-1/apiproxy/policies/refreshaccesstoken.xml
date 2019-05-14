@@ -1,0 +1,7 @@
+<OAuthV2 name="refreshaccesstoken">
+  <DisplayName>RefreshAccessToken</DisplayName>
+    <Operation>RefreshAccessToken</Operation>
+    <RefreshTokenExpiresIn>3600000</RefreshTokenExpiresIn> <!--Optional: 14400000ms = 4 hours -->
+    <ExpiresIn>1800000</ExpiresIn> <!-- Optional: 1800000ms = 30 minutes -->
+    <RefreshToken>request.formparam.refresh_token</RefreshToken> <!-- Optional -->
+</OAuthV2>

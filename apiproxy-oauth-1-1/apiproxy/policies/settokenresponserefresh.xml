@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="settokenresponserefresh">
+    <DisplayName>SetTokenResponseRefresh</DisplayName>
+    <Set>
+      <Payload contentType="application/json" variablePrefix="%" variableSuffix="#">
+        {
+          "access_token": "%oauthv2accesstoken.refreshaccesstoken.access_token#", 
+          "expires_in" : "%oauthv2accesstoken.refreshaccesstoken.expires_in#", 
+          "refresh_token" : "%oauthv2accesstoken.refreshaccesstoken.refresh_token#",
+          "scope" : "%oauthv2accesstoken.refreshaccesstoken.scope#"
+        }
+      </Payload>
+      <StatusCode>200</StatusCode>
+      <ReasonPhrase>OK</ReasonPhrase>
+    </Set>
+    <AssignTo createNew="true" type="response"/>
+</AssignMessage>

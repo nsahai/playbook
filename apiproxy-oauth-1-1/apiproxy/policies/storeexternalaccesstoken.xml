@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="storeexternalaccesstoken">
+    <DisplayName>StoreExternalAccessToken</DisplayName>
+    <Operation>GenerateAccessToken</Operation>
+  <Attributes>
+      <Attribute name="session_id" ref="request.header.x-session-id"/>
+  </Attributes>
+    <SupportedGrantTypes>
+      <GrantType>client_credentials</GrantType>
+  </SupportedGrantTypes>
+    <GenerateResponse enabled="true"/>
+  <StoreToken>true</StoreToken>
+  <ExternalAccessToken>request.formparam.access_token</ExternalAccessToken>
+</OAuthV2>

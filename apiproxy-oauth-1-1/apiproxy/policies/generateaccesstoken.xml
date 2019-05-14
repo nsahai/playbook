@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="generateaccesstoken">
+  <DisplayName>GenerateAccessToken</DisplayName>
+    <Attributes>
+      <Attribute name="session_id" ref="request.header.x-session-id"/>
+  </Attributes>
+    <ExternalAuthorization>false</ExternalAuthorization> <!-- Optional: default value is true -->
+    <Operation>GenerateAccessToken</Operation>
+    <SupportedGrantTypes>
+      <GrantType>client_credentials</GrantType>
+      <GrantType>password</GrantType>
+  </SupportedGrantTypes>
+    <GenerateResponse enabled="true"/>
+  <Scope>request.formparam.scope</Scope> <!-- Optional -->
+  <StoreToken>true</StoreToken> <!-- Optional: default value is true -->
+  <RefreshTokenExpiresIn>3600000</RefreshTokenExpiresIn> <!--Optional: 14400000ms = 4 hours -->
+    <ExpiresIn>1800000</ExpiresIn> <!-- Optional: 1800000ms = 30 minutes -->
+</OAuthV2>
