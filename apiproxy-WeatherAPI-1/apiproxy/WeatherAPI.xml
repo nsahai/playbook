@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="WeatherAPI">
+    <Basepaths>/weatherapi</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1555476586749</CreatedAt>
+    <CreatedBy>nsahai03@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>WeatherAPI</DisplayName>
+    <LastModifiedAt>1556084700868</LastModifiedAt>
+    <LastModifiedBy>nsahai03@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:9015595c8e87bfd7628c2e3260a937c240439b1389652ea01aabd1fe93c3038bbd2225f4ffdbbb38670093a56187a8b89a8f10e4090c5576bd2f7e0774957f9b</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>ProxyEndpoint-1</ProxyEndpoint>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
