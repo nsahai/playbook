@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Demo">
+    <Basepaths>/demo</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1555128299033</CreatedAt>
+    <CreatedBy>nsahai03@gmail.com</CreatedBy>
+    <Description>demo proxy</Description>
+    <DisplayName>Demo</DisplayName>
+    <LastModifiedAt>1555130250435</LastModifiedAt>
+    <LastModifiedBy>nsahai03@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:4906683cb145c6d3ae676b5f0e8d24d9c85f9d7faa6eec33c16a31a7c781bfcb04f3b2c0c2557b99563bfda0660f303f9f97a32e034fd3a5c79548a8836e7bd2</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>Verify-API-Key-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+        <Resource>jsc://router.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

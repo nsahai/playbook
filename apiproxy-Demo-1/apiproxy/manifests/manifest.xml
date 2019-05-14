@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Assign-Message-1" version="SHA-512:21a7cbddd72374f4e73f417dad371ef7600b7a9b9aa57cfa5cd47116ad39470de584cfafe60694e8d7ef29fd6ae629cffd44e8d45beedfd43e6591f798c1d452"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:03207433491c64a3d22fb8b8464e3763bb36a5d784c34e309a49e4d87d3584bfebf5d1e48550ad394cb96aa70ed5549736c206599abd67163fc7e7519de220c1"/>
+        <VersionInfo resourceName="Verify-API-Key-1" version="SHA-512:231ec461539cab963434dbba0f1525ddf633c644ef326d0f9313f220069d73dba309a80583e19e6bebdf99b310938e6afa0618f3cc4b343f26925e3fac639663"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:2c9935b156bac5cda115a8f6a43a7582a43e39daa4108b3e3ed54fd4978251072994e8f39b071d5038178d57aaa7d290280f9996651e1c632c8ac9295dc42683"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:7c2166c5db1ff65c1e7c9102e1af8eb4f2d7178b40ac9989f44de7d49814e59e1aacdcdfc798ccb117b3930c3d5f63eb81f2101457f0239649743c2849fb5d37"/>
+        <VersionInfo resourceName="jsc://router.js" version="SHA-512:79320522a89ad3bc8b6944c60c6c3ac3f2289cfae861975530ba5b563b702a08a0eb38f46a7c10a1bdc0bcfb0c0ffc52d294ad275791aa804a11c7d4a87b2069"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:a1a686ad5095880ed592a5a79b3c2fa03061205f1566eaf7496327a9a227699b9b44dce3cf49659ed1a437b16d56f84fdd8ba2b90f2d7422504470bdcab13b7d"/>
+    </TargetEndpoints>
+</Manifest>
